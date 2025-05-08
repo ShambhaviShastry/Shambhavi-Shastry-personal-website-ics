@@ -1,0 +1,30 @@
+<html> 
+  <body> 
+    <style> 
+        .class1{
+          font-size:30px;
+        }
+      </style>
+    <link rel="stylesheet" href="webdevcss.css">
+    <nav class="navbar">
+      <a href="webdevhtml.html">home.</a>
+      <a href="about.html">about.</a>
+      <a href="file:///C:/Users/shamb/Downloads/resume_docx%20(1).pdf">resume.</a>
+  </nav>
+    <div>
+        <h1 style = "text-decoration: underline;"> about </h1>
+      <p class="class1"> I plan to major in Mathematics and Computer Science, and minor in Biology. My passion for mathematics and the pure sciences has persisted throughout my schooling years, and I would love to delve deeper into the intersection of these topics. </p>
+      <p class="class1"> I am deeply passionate about teaching and the education sector, and hope to pursue a career that brings together my varied interests. </p>
+      <p class="class1"> I enjoy singing, painting and reading in my free time. I also love all forms of food and cooking, and understanding the science behind different food techniques. </p>  
+    </div>
+  <img src="linkedin.jpg">
+  <button onclick="showMessage()">click here</button>
+
+  <script>
+    function showMessage() {
+    alert("have a good day :)");
+  }
+  </script>
+
+  </body>
+</html>
