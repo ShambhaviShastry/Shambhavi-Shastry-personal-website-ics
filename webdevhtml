@@ -1,0 +1,30 @@
+<html> 
+  <style> 
+    .class1{
+      font-size:30px;
+    }
+  </style>
+  <body> 
+    <link rel="stylesheet" href="webdevcss.css">
+    <nav class="navbar">
+      <a href="webdevhtml.html">home.</a>
+      <a href="abouthtml.html">about.</a>
+      <a href="file:///C:/Users/shamb/Downloads/resume_docx%20(1).pdf">resume.</a>
+  </nav>
+    <div>
+      <h1 style = "text-decoration: underline;"> home </h1>
+      <p class="class1"> Welcome to my corner of the internet! My name is Shambhavi Shastry, and I am a first year undergraduate student at Ashoka University. </p>
+      <p class="class1"> This webpage is all about me - from my academic and non-academic journeys to my aspirations and goals. </p>
+      <p class="class1"> Attached above is my resume for your perusall. Click on the button for a surprise! </p>  
+    </div>
+  <img src="hello1.jpg">
+  <button onclick="showMessage()">click here</button>
+
+  <script>
+    function showMessage() {
+    alert("have a good day :)");
+  }
+  </script>
+
+  </body>
+</html>
